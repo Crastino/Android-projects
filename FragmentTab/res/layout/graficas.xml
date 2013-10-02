@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/graphic"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<!-- <android.support.v4.view.ViewPager
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />  -->
+    
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/graph1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1.49"
+        android:orientation="horizontal" />
+
+	    <LinearLayout
+	        android:id="@+id/buttons1"
+	        xmlns:android="http://schemas.android.com/apk/res/android"
+	        android:layout_width="match_parent"
+	        android:layout_height="72dp"
+	        android:orientation="horizontal" >
+	
+	        <Button
+	            android:id="@+id/button1"
+	            android:layout_width="148dp"
+	            android:layout_height="72dp"
+	            android:layout_gravity="center_horizontal"
+	            android:layout_weight="0.31"
+	            android:text="@string/buttonevento" />
+	
+	        <Button
+	            android:id="@+id/button2"
+	            android:layout_width="148dp"
+	            android:layout_height="72dp"
+	            android:layout_gravity="center_horizontal"
+	            android:layout_weight="0.31"
+	            android:text="@string/buttonfecha" />
+	    </LinearLayout>
+	    
+<!-- 2° Horizontal linear layout -->
+    <LinearLayout
+          android:id="@+id/buttons3"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="157dp"
+            android:layout_height="match_parent"
+            android:text="@string/buttontodotemp" />
+
+<LinearLayout
+     android:id="@+id/buttons2"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/bluetoothdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plot Bluetooth Data" />
+    
+    <CheckBox
+            android:id="@+id/checkevent"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Event" />
+    <CheckBox
+            android:id="@+id/checktemp"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Temperature" />
+    <CheckBox
+            android:id="@+id/checklight"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Light" />
+  </LinearLayout>  
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+	 
+
+	    <Button
+	        android:id="@+id/statistics"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Bluetooth Statistics" />
+
+	 <TextView
+	        android:id="@+id/textView_opt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Options: " />
+
+        <CheckBox
+            android:id="@+id/check1"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/scro" />
+
+	<CheckBox
+            android:id="@+id/check2"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Scalable" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >     
+        	
+	     <TextView
+	        android:id="@+id/textView_param"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/parmm" />
+
+	    <com.example.fragmenttab.HorizontalNumberPicker
+	        android:id="@+id/horizontal_number_picker"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+	    </com.example.fragmenttab.HorizontalNumberPicker>     
+     
+    </LinearLayout>
+    
+</LinearLayout>
+    <LinearLayout
+          android:id="@+id/check"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/check_panel"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Split Panel" />
+
+</LinearLayout>
+</LinearLayout>

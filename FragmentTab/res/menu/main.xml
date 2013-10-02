@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/aggiungitipo"
+          android:icon="@android:drawable/ic_menu_search"
+          android:title="aggiungitipo"
+          android:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/eliminatipo"
+          android:icon="@android:drawable/ic_menu_search"
+          android:title="eliminatipo"
+          android:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/eliminatutto"
+          android:icon="@android:drawable/ic_menu_mylocation"
+          android:title="eliminatutto"
+          android:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/esportadb"
+          android:icon="@android:drawable/ic_menu_mylocation"
+          android:title="esportadb"
+          android:showAsAction="ifRoom|withText" />
+</menu>

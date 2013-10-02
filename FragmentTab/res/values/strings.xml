@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">FragmentTab</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!--  BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+        <string name="title_connected_to">connected to <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_not_connected">not connected</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="secure_connect">Connect a device - Secure</string>
+    <string name="insecure_connect">Connect a device - Insecure</string>
+    <string name="discoverable">Make discoverable</string>
+    
+    <!-- Main Menu -->
+    <string name="aggiungitipo">Aggiungi tipo</string>
+    <string name="eliminatipo">Elimina tipo</string>
+    <string name="eliminatutto">Elimina tutto</string>
+    <string name="esportadb">Esporta database</string>
+    
+    <string name="eligeevento">Scegli un tipo di evento</string> 
+    <string name="buttonevento">Disegna/Aggiorna il grafico dato un evento</string>
+    <string name="buttonfecha">Disegna/Aggiorna il grafico data una data</string>
+    <string name="cambiahora">Cambia ora</string>
+    <string name="horafinal">Ora finale</string>
+    <string name="cambiafecha">Cambia data</string>
+    <string name="enviadatos">Invia dati</string>
+    <string name="eliminaev">Eliminare l\'evento?</string>
+    <string name="evelim">Evento eliminato: </string>
+    <string name="orainiz">\nOra inizio: </string>
+    <string name="orafin">\nOra fine: </string>
+    <string name="data">\nData: </string>
+    <string name="vaciali">Svuotare la lista di eventi?</string>
+    <string name="bdvacia">Database vuoto</string>
+    <string name="vaciabd">Svuota Database</string>
+    <string name="listaya">La lista è già vuota.</string>
+    
+    
+   <string name="noev">Non c\'è nessun evento</string> 
+    <string name="data2">Data: </string>
+    <string name="noevfe">Non ci sono eventi in questa data: </string> 
+    <string name="tipo">Che tipo vuoi?</string> 
+    <string name="tipo2">Tipo di Evento: </string> 
+    
+    <string name="guia">Non c\'è nessun tipo d\'evento. \nPer aggiungere nuovi tipi premere il tasto Menu/Aggiungere Tipo</string> 
+    
+    <string name="oraat">Ora attuale: </string> 
+    <string name="orafin2">Ora finale selezionata: </string>
+    <string name="dataat">Data attuale: </string>
+    <string name="tipoel">Che tipo vuoi eliminare?</string>
+   <string name="addev">Aggiungi un nuovo tipo di evento</string> 
+   <string name="nomexml">Nome del file .xml</string> 
+   <string name="addti">Aggiungere tipo</string> 
+   <string name="eliti">Eliminare tipo</string>
+   <string name="noti">Non c\'è nessun tipo di evento</string> 
+   <string name="elitutti">Eliminare tutti i tipi</string>
+   <string name="exp">Esporta database .xml</string>
+   <string name="tipoe">Il tipo di evento \"</string>
+   <string name="eli">\" è stato eliminato</string>
+   <string name="evead">Evento aggiunto: </string>
+   <string name="guia1">Non puoi aggiungere eventi senza tipo.\nDefinisci un tipo di evento!</string>
+   <string name="guia2">Un evento non può iniziare e finire allo stesso tempo</string>
+   <string name="guia3">Un evento non può finire prima di iniziare</string>
+   <string name="agg">\" è stato aggiunto</string>
+   <string name="guia4">Questo tipo di evento esiste già</string>
+   <string name="guia5">Il nome del tipo d\'evento non può essere vuoto e non può contenere ne \".\" ne \";\"</string>
+   <string name="tipieli">Tipi di eventi eliminati</string>
+  <string name="file">Il file \"</string> 
+   <string name="insd">.xml\" è stato esportato nella memoria SD correttamente!</string>
+   <string name="err">ERRORE: </string>
+   <string name="nolegg">\n Impossibile leggere la memoria SD</string>
+   
+   <string name="un">Lista Eventi</string>
+   <string name="du">Aggiungi Eventi</string>
+   <string name="tr">Disegna Grafici</string>
+   <string name="notemp">Nel file delle temperature non ci sono dati con questa data</string>
+   <string name="temp">Temperature</string>
+   <string name="tempmm">Temperature Media Mobile</string>
+   <string name="buttontodotemp">Disegna tutte le temperature e gli eventi</string>
+   <string name="nosd">Non è stato possibile leggere la scheda SD. Verifica che è stata inserita</string>
+   <string name="tempda">Grafico delle temperature dal giorno </string>
+<string name="tempal">al giorno </string>
+<string name="si">Sì</string>
+<string name="parmm">Parametro Media Mobile </string>
+<string name="scro">Scrollable</string>
+<string name="caltip">Calcolando dati del\ntipo di evento \"</string>
+<string name="dise">Disegnando i grafici....</string>
+<string name="disescro">Disegnando i grafici....\nEssendo l\'opzione scrolling disabilitata, l\'operazione\npuò durare anche qualche minuto</string>
+<string name="cregra">Creando i grafici</string>
+<string name="caltem">Calcolando i dati delle temperature</string>
+
+</resources>
